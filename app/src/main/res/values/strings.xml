@@ -1,0 +1,231 @@
+<resources>
+    <!-- MAIN ACTIVITY -->
+    <string name="menu_usuario">Menú de usuarios</string>
+    <string name="login">Login</string>
+    <string name="IngreseDNI">Ingrese DNI del Usuario</string>
+    <string name="IngresePassword">Ingrese Contraseña</string>
+    <string name="BtnIngresar">> Ingresar</string>
+    <string name="menu_poliza">Menú de pólizas</string>
+    <string name="nuevo_usuario">> Nuevo Usuario</string>
+    <string name="nueva_poliza">> Nueva Póliza</string>
+    <string name="listado_usuarios">> Listado de usuarios </string>
+    <string name="listado_polizas">> Listado de pólizas </string>
+    <string name="elimina_usuario">> Eliminar usuario </string>
+    <string name="elimina_poliza">> Eliminar póliza </string>
+
+    <string name="app_name">Zurich Seguros</string>
+    <string name="etSearch">Ingrese DNI</string>
+    <string name="btnSearch"> BUSCAR</string>
+    <string name="gbBtnNew">INGRESO</string>
+
+    <string name="btnContact">CONTACTO</string>
+    <string name="btnBranch">SUCURSALES</string>
+    <string name="imgBackground">fondo_stk</string>
+    <string name="logoSTK">logo_stk</string>
+    <string name="txtAbout">2017 - softtek.com</string>
+    <string-array name="search_array">
+        <item>DNI Usuario</item>
+        <item>Número de Póliza</item>
+    </string-array>
+
+    <!-- ** NEW USER ACTIVITY -->
+    <string name="nusuario_titulo">> Ingreso de nuevo usuario</string>
+    <string name="etDni">DNI</string>
+    <string name="etName">Nombres</string>
+    <string name="etLastname">Apellido</string>
+    <string name="etMail">E-Mail</string>
+    <string name="etTelefono">Telefono</string>
+    <string name="etDirection">Dirección</string>
+    <string name="etDirectionNro">Nro</string>
+    <string name="etDepto">Depto</string>
+    <string name="nusuario_localidad">Localidad:</string>
+    <string name="etLocalidad">Localidad</string>
+    <string name="etProvincia">Provincia</string>
+    <string name="etCodPostal">CP</string>
+    <string name="nusuario_btnguardar">> Guardar</string>
+    <string name="nusuario_btnlimpiar">> Limpiar</string>
+
+    <!-- ** USER LIST ACTIVITY -->
+    <string name="lusuarios_titulo">> Listado de usuarios</string>
+
+    <!-- USER DATA ACTIVITY -->
+    <string name="dusuarios_titulo">> Datos del usuario</string>
+    <string name="dusuarios_btn1">> Ver pólizas</string>
+    <string name="dusuarios_btn2">> Ingresar nueva póliza</string>
+
+    <!-- NEW POLICY ACTIVITY -->
+    <string name="npoliza_titulo">> Ingreso de nueva póliza</string>
+    <string name="etDniUser">Ingrese DNI de usuario</string>
+    <string name="txtUserLastname">Apellido</string>
+    <string name="txtUserName">Nombre</string>
+    <string name="npoliza_vigencia">Vigencia</string>
+    <string name="npoliza_fecha">F. Inicio</string>
+    <string name="etVigency">Fecha de inicio</string>
+    <string name="etDuration">Duración</string>
+    <string name="etPayment">Método de pago</string>
+    <string name="btnGuardar">GUARDAR</string>
+
+    <string-array name="poliza_array">
+        <item>Automotor</item>
+        <item>De vida</item>
+        <item>Propiedad</item>
+    </string-array>
+    <string-array name="tipopago_array">
+        <item>Efectivo</item>
+        <item>Tarjeta de Débito</item>
+        <item>Tarjeta de Crédito</item>
+    </string-array>
+
+    <!-- POLICY DATA ACTIVITY -->
+    <string name="dpoliza_titulo">> Datos de la póliza</string>
+    <string name="dpoliza_nrodni">Nro DNI:</string>
+    <string name="tvPolicyNo">Nro Poliza:</string>
+    <string name="tvDays"> días</string>
+    <string name="txtDurationPolicyData">meses</string>
+    <string name="tvPayment">Forma de pago</string>
+    <string name="tvDurationTxt">días</string>
+    <string name="dpóliza_pago">Método de pago</string>
+    <string name="dpoliza_tipo">Tipo</string>
+    <string name="sp_poliza">Elija un tipo..</string>
+
+    <!-- DATOS DE POLIZA -->
+    <string name="lpoliza_titulo">> Listado de pólizas</string>
+
+    <!-- VER POLIZA -->
+    <string name="dpoliza_btn1">> Eliminar póliza</string>
+
+    <!-- ** CONTACT ACTIVITY ** -->
+    <string name="txtContactTitle">Contactanos</string>
+    <string name="txtContactoTel">Atención telefónica</string>
+    <string name="txtContactoTel1">
+        Averiguá más sobre nuestros productos y cotizaciones llamando
+        al <b>0800 333 Zurich (987424)</b> de lunes a viernes de 9 a 20 hs.
+    </string>
+    <string name="txtContactoVisitanos">Visitanos</string>
+    <string name="txtContactoVisitanos1">
+        Estamos cada vez más cerca, presentes en las principales ciudades del país.
+        Podés solicitar información sobre seguros, productos, servicios y beneficios,
+        además de realizar trámites de tu póliza.
+    </string>
+    <string name="txtContactoAutogestion">Zurich Autogestión</string>
+    <string name="txtContactoAutogestion1">
+        Ponemos a tu alcance Zurich Autogestión, herramienta que te permitirá:
+    </string>
+    <string name="txtContactoAutogestion2">- Consultar la información sobre tu Póliza.</string>
+    <string name="txtContactoAutogestion3">- Imprimir la documentación de tu Póliza.</string>
+    <string name="txtContactoAutogestion4">- Denunciar tu Siniestro y consultar su estado.</string>
+    <string name="txtContactoAutogestion5">- Realizar otras Consultas.</string>
+
+    <!-- ** GET DNI ** -->
+    <string name="getDniEv">Ingrese DNI del usuario</string>
+
+    <!-- ** GET NUM POLIZA -->
+    <string name="getNumPoliza">Ingrese número de Póliza</string>
+
+    <!-- ** VALIDA ELIMINAR USUARIO -->
+    <string name="validateUser">Atención, si elimina este usuario se eliminarán también
+    todas las pólizas asociadas al mismo\n¿Desea continuar?</string>
+    <!-- VALIDA ELIMINA POLIZA -->
+    <string name="validatePoliza">¿Está seguro que desea\n eliminar esta póliza?</string>
+
+    <!-- ** VIEWS ** -->
+    <string name="viewPolicyDNI">DNI del asegurado:</string>
+    <string name="viewPolicyDiasVig">Vigencia:</string>
+    <string name="viewPolizaTipoPoliza">Tipo de póliza:</string>
+    <string name="viewPolizaTipoPago">Tipo de pago:</string>
+    <string name="viewPolicyFechaVig">Fecha de alta:</string>
+    <string name="viewUserDirection">Dirección:</string>
+    <string name="viewUserEmail">Email:</string>
+    <string name="viewUserTel">Tel:</string>
+    <string name="viewUserCP">CP:</string>
+    <string name="viewUserDNI">DNI:</string>
+
+    <!-- ** OTROS ** -->
+    <string name="viewUser">DETALLES USUARIO</string>
+    <string name="viewPolicy">DETALLES POLIZA</string>
+
+    <!-- **** ASEGURADO'S ACTIVITIES **** -->
+    <!-- ** MAIN ASEGURADO ** -->
+    <string name="menu_asegurado">Bienvenido </string>
+    <string name="btn_datos_asegurado">> Datos del asegurado</string>
+    <string name="btn_reportar_siniestro">> Reportar un siniestro</string>
+    <string name="btn_documentos">> Documentación del asegurado</string>
+    <string name="btn_cotizar">> Cotizá tu seguro</string>
+    <string name="btn_contacto">> Canales de contacto</string>
+
+    <!-- ** DATOS DEL ASEGURADO ** -->
+    <string name="dasegurado_titulo">> Datos del Asegurado</string>
+
+    <!-- ** COTIZADOR ** -->
+    <string name="cotizador_titulo">> Cotizá tu seguro</string>
+    <string name="cotizador_seleccione">Seleccione tipo:</string>
+    <string name="btn_cotizador_siguiente">> Siguiente</string>
+    <string-array name="provincias_array">
+        <item>Gran Buenos Aires</item>
+        <item>Interior Buenos Aires</item>
+        <item>Córdoba</item>
+        <item>Santa Fe</item>
+        <item>Mendoza</item>
+        <item>San Luis</item>
+        <item>Entre Ríos</item>
+        <item>Otra</item>
+    </string-array>
+    <!-- DATOS EN SI -->
+    <string name="cotizador_datos_titulo">Datos de contacto</string>
+    <string name="cotizador_datos_nombre">Nombre:</string>
+    <string name="cotizador_datos_apellido">Apellido:</string>
+    <string name="cotizador_datos_telefono">Teléfono:</string>
+    <string name="cotizador_datos_email">Email:</string>
+
+    <!-- VIDA -->
+    <string name="cotizador_vida_titulo">Datos del asegurado</string>
+    <string name="cotizador_vida_profesion">Profesión:</string>
+    <string name="cotizador_vida_suma">Suma asegurada:</string>
+
+    <!-- VIVIENDA -->
+    <string name="cotizador_propiedad_titulo">Datos del inmueble</string>
+    <string name="cotizador_propiedad_localidad">Localidad:</string>
+    <string name="cotizador_propiedad_provincia">Provincia:</string>
+
+    <!-- AUTO -->
+    <string name="cotizador_auto_titulo">Datos del vehículo</string>
+    <string name="cotizador_auto_marca">Marca:</string>
+    <string name="cotizador_auto_modelo">Modelo:</string>
+    <string name="cotizador_auto_año">Año:</string>
+
+    <!-- ** REPORTAR SINIESTRO ** -->
+    <string name="reportar_titulo">> Reportar un siniestro</string>
+    <string name="reportar_nro_poliza">Seleccionar póliza</string>
+    <string name="reportar_fecha">Fecha del siniestro</string>
+    <string name="reportar_hora">Hora aproximada</string>
+    <string name="reportar_lugar_titulo">Lugar del siniestro</string>
+    <string name="reportar_lugar_cp">Cod. Postal:</string>
+    <string name="reportar_lugar_localidad">Localidad:</string>
+    <string name="reportar_lugar_provincia">Provincia:</string>
+    <string name="reportar_pais_extranjero">Sucedió en el extranjero</string>
+    <string name="reportar_seleccionar_pais">Seleccione país</string>
+    <string name="reportar_btn_narrar_hecho">> Narración del Hecho</string>
+    <string name="reportar_btn_foto">> Sacar foto</string>
+    <string name="reportar_btn_mostrar">> Mostrar foto</string>
+    <string name="reportar_btn_ubicacion">> Locación GPS</string>
+    <string-array name="paises_array">
+        <item>Uruguay</item>
+        <item>Chile</item>
+        <item>Paraguay</item>
+        <item>Bolivia</item>
+        <item>Perú</item>
+        <item>Brasil</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- ** NARACION ACTIVITY ** -->
+    <string name="narracion_titulo">> Describa el siniestro ocurrido</string>
+    <string name="narracion_et">Máximo de caracteres: 1000</string>
+    <string name="narracion_cantidad_caracteres">Caracteres restantes: </string>
+    <string name="narracion_et_caracteres">1000</string>
+    <string name="naraccion_btn">> Grabar texto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="frag_fotosiniestro_title">> Fotos del siniestro</string>
+
+</resources>

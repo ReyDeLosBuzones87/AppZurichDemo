@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_l"
+        tools:context="com.deuzex.seguros.activities.asegurado.ReportarSiniestroActivity">
+
+        <TextView
+            style="@style/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reportar_titulo"
+            android:textColor="@color/zurich_blue2"
+            android:textSize="@dimen/txt_xl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_xl"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reportar_nro_poliza"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt_xs" />
+
+                <Spinner
+                    android:id="@+id/sp_nro_poliza"
+                    style="@style/txt"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/txt_xs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reportar_fecha"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt_xs" />
+
+                <EditText
+                    android:id="@+id/et_reportar_fecha"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/txt_xs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reportar_hora"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt_xs" />
+
+                <EditText
+                    android:id="@+id/et_reportar_hora"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/txt_xs" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_reporte_narracion"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:text="@string/reportar_btn_narrar_hecho" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginLayout"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reportar_lugar_titulo"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/txt_xs"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/btn_reporte_foto"
+                            style="@style/btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_style"
+                            android:text="@string/reportar_btn_foto" />
+
+                        <Button
+                            android:id="@+id/btn_reporte_mostrar"
+                            style="@style/btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_style"
+                            android:text="@string/reportar_btn_mostrar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_reporte_gps"
+                        style="@style/btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_style"
+                        android:text="@string/reportar_btn_ubicacion" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/marginLayout">
+
+                        <TextView
+                            style="@style/txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reportar_lugar_cp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/txt_xs" />
+
+                        <EditText
+                            android:id="@+id/et_reportar_cp"
+                            android:layout_width="75dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLength="5"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/txt_xs" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/marginLayout">
+
+                        <TextView
+                            style="@style/txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reportar_lugar_localidad"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/txt_xs" />
+
+                        <EditText
+                            android:id="@+id/et_reportar_localidad"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapSentences"
+                            android:textSize="@dimen/txt_xs" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/marginLayout"
+                        android:layout_marginTop="@dimen/marginLayout">
+
+                        <TextView
+                            style="@style/txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reportar_lugar_provincia"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/txt_xs" />
+
+                        <Spinner
+                            android:id="@+id/sp_provincia"
+                            style="@style/txt"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/provincias_array" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/marginLayout"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/chk_pais"
+                            style="@style/txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reportar_pais_extranjero"
+                            android:textColor="@color/dark_gray" />
+
+                        <TextView
+                            style="@style/txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reportar_seleccionar_pais"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/txt_xs" />
+
+                        <Spinner
+                            android:id="@+id/sp_pais_extranjero"
+                            style="@style/sp_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:clickable="false"
+                            android:entries="@array/paises_array"
+                            android:textSize="@dimen/txt_xs" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_limpiar"
+                            style="@style/btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_style"
+                            android:text="@string/nusuario_btnlimpiar" />
+
+                        <Button
+                            android:id="@+id/btn_guardar"
+                            style="@style/btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_style"
+                            android:text="@string/nusuario_btnguardar" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_xl"
+    tools:context="com.deuzex.seguros.activities.promotor.DatosUsuarioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginLayout"
+        android:background="@drawable/gradient_color"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtAbout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textSize="@dimen/txt_xs">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dusuarios_titulo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt_l" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLayout">
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewUserDNI"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserDni"
+                style="@style/txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_xs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_xl">
+
+            <TextView
+                android:id="@+id/viewUserApellido"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etLastname"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserNombre"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etName"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/txt_xs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_xl">
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/viewUserEmail"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserEmail"
+                style="@style/txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_xs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_xl">
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/viewUserDirection"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserDireccion"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etDirection"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserDireccionNro"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etDirectionNro"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserDepto"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etDepto"
+                android:textSize="@dimen/txt_xs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_xl">
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewUserTel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserTelefono"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewUserCP"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserCodPostal"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_xs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_xl">
+
+            <TextView
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nusuario_localidad"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserLocalidad"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etLocalidad"
+                android:textSize="@dimen/txt_xs" />
+
+            <TextView
+                android:id="@+id/viewUserProvincia"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etProvincia"
+                android:textAlignment="center"
+                android:textSize="@dimen/txt_xs" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_asegurado_nueva_poliza"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_xl"
+        android:background="@drawable/btn_style"
+        android:text="@string/dusuarios_btn2" />
+
+    <Button
+        android:id="@+id/btn_verpolizas"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_xl"
+        android:background="@drawable/btn_style"
+        android:text="@string/dusuarios_btn1" />
+</LinearLayout>

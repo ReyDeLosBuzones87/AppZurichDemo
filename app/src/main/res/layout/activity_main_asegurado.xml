@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context="com.deuzex.seguros.activities.asegurado.MainAseguradoActivity">
+
+        <ImageView
+            android:id="@+id/logo_stk"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="@dimen/marginLayout"
+            android:contentDescription="@string/logoSTK"
+            android:src="@drawable/logo1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_datos_asegurado"
+                style="@style/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black_stone"
+                android:textSize="@dimen/txt_m" />
+
+            <Button
+                android:id="@+id/btn_asegurado_datos"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:text="@string/btn_datos_asegurado" />
+
+            <Button
+                android:id="@+id/btn_asegurado_nueva_poliza"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_xl"
+                android:background="@drawable/btn_style"
+                android:text="@string/dusuarios_btn2" />
+
+            <Button
+                android:id="@+id/btn_asegurado_documentos"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_xl"
+                android:background="@drawable/btn_style"
+                android:text="@string/btn_documentos" />
+
+            <Button
+                android:id="@+id/btn_asegurado_cotizar"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_xl"
+                android:background="@drawable/btn_style"
+                android:text="@string/btn_cotizar" />
+
+            <Button
+                android:id="@+id/btn_asegurado_reportar_siniestro"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:text="@string/btn_reportar_siniestro" />
+
+            <Button
+                android:id="@+id/btn_asegurado_contacto"
+                style="@style/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:text="@string/btn_contacto" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

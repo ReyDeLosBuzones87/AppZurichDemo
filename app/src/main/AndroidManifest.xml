@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deuzex.seguros">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        -->
+        <activity android:name=".activities.promotor.NuevaPolizaActivity" />
+        <activity android:name=".activities.promotor.ListadoPolizasActivity" />
+        <activity android:name=".activities.promotor.ListadoUsuariosActivity" />
+        <activity android:name=".activities.promotor.DatosUsuarioActivity" />
+        <activity android:name=".activities.promotor.DatosPolizaActivity" />
+        <activity android:name=".activities.promotor.MainPromotorActivity" />
+        <activity android:name=".activities.promotor.NuevoUsuarioActivity" />
+        <activity android:name=".activities.asegurado.MainAseguradoActivity" />
+        <activity android:name=".activities.asegurado.ContactoActivity" />
+        <activity android:name=".activities.asegurado.CotizadorActivity" />
+        <activity android:name=".activities.asegurado.DatosAseguradoActivity" />
+        <activity android:name=".activities.asegurado.NarracionSiniestro" />
+        <activity android:name=".activities.asegurado.ReportarSiniestroActivity" />
+        <activity android:name=".activities.asegurado.SucursalesActivity" />
+        <activity android:name=".activities.asegurado.DocumentacionActivity" />
+        <activity android:name=".activities.asegurado.SiniestroFotoActivity" />
+        <activity android:name=".activities.asegurado.DocumentoFotoActivity"></activity>
+    </application>
+
+</manifest>

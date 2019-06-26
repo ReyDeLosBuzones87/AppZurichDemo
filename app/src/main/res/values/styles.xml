@@ -1,0 +1,78 @@
+<resources>
+    <!-- ********************* -->
+    <!-- ***** APP STYLE ***** -->
+    <!-- ********************* -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:spinnerItemStyle">
+            @style/sp_item
+        </item>
+        <item name="android:spinnerDropDownItemStyle">
+            @style/sp_item_dropdown
+        </item>
+    </style>
+
+    <!-- ************************ -->
+    <!-- ****** TEXT SYLES ****** -->
+    <!-- ************************ -->
+    <style name="about">
+        <item name="android:textSize">@dimen/txt_s</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">@dimen/txtMarginTop</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="txt">
+        <item name="android:textSize">@dimen/txt_xxs</item>
+        <item name="android:textColor">@color/dark_stone</item>
+        <item name="android:layout_margin">@dimen/padding_xl</item>
+    </style>
+
+    <style name="et">
+        <item name="android:textSize">@dimen/txt_xs</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_height">@dimen/padding_s</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/padding_l</item>
+    </style>
+
+    <style name="line2">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">@dimen/padding_s</item>
+    </style>
+
+    <!-- ***************** -->
+    <!-- * BOTONES STYLE * -->
+    <!-- ***************** -->
+    <style name="btn">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/padding_xl</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/zurich_blue</item>
+        <item name="android:textSize">@dimen/txt_xxs</item>
+        <item name="android:layout_margin">@dimen/padding_xl</item>
+    </style>
+
+    <!-- ***************** -->
+    <!-- * SPINNER STYLE * -->
+    <!-- ***************** -->
+    <style name="sp_item" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:padding">@dimen/padding_xl</item>
+        <item name="android:textSize">@dimen/txt_xs</item>
+        <item name="android:textColor">@color/dark_stone</item>
+    </style>
+
+    <style name="sp_item_dropdown" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:padding">@dimen/padding_xl</item>
+        <item name="android:textSize">@dimen/txt_xs</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

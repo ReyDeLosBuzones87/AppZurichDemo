@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_xl"
+    tools:context="com.deuzex.seguros.activities.promotor.NuevaPolizaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_xl"
+        android:paddingTop="@dimen/padding_xl"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dpoliza_titulo"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_m"
+        android:text="@string/lpoliza_titulo"
+        android:textColor="@color/zurich_blue2"
+        android:textSize="@dimen/txt_l" />
+
+    <LinearLayout
+        android:id="@+id/layout_nombres_listado_polizas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginLayout"
+        android:layout_marginStart="@dimen/marginLayout"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_nombre_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_m"
+            android:textColor="@color/mid_blue"
+            android:textSize="@dimen/txt_l"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_apellido_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_m"
+            android:textColor="@color/mid_blue"
+            android:textSize="@dimen/txt_l"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginLayout" />
+</LinearLayout>

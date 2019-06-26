@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tvPolicyNo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt_xs" />
+
+        <TextView
+            android:id="@+id/policyListNumero"
+            style="@style/txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_xl"
+            android:textSize="@dimen/txt_xs" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dpoliza_nrodni"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt_xs" />
+
+        <TextView
+            android:id="@+id/policyListDniUser"
+            style="@style/txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_xl"
+            android:textSize="@dimen/txt_xs" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/padding_s"
+        android:layout_margin="@dimen/padding_m"
+        android:background="@color/colorPrimaryDark" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003399</color>
+    <color name="colorPrimaryDark">#000066</color>
+    <color name="colorAccent">#7e7a6d</color>
+
+    <color name="btnNormal">#97C1E3</color>
+    <color name="btnPress">#4F90C8</color>
+    <color name="btnFocus">#97C1E3</color>
+
+    <!-- PRIMARY COLORS (LOGO - ICONS - HEADLINES)-->
+    <color name="zurich_blue1">#003399</color>
+    <color name="zurich_blue1a">#4066B3</color>
+    <color name="zurich_blue2">#000066</color>
+    <color name="white">#FFF</color>
+
+    <!-- SECONDARY COLORS (BACKGROUNDS - CHARTS & DIAGRAMS) -->
+    <color name="sand_stone">#D5CEB5</color>
+    <color name="dark_stone">#A89F96</color>
+    <color name="dove">#E7ECEB</color>
+    <color name="black_stone">#4C433D</color>
+    <color name="sky_blue">#009EE0</color>
+    <color name="mid_blue">#4F90C8</color>
+    <color name="light_blue">#97C1E3</color>
+
+    <color name="btnNormal1">#d1e000</color>
+    <color name="btnPress1">#879100</color>
+    <color name="btnFocus1">#b4c100</color>
+
+    <color name="groupbox1">#205f82</color>
+
+
+    <color name="black">#000</color>
+    <color name="gray">#505050</color>
+    <color name="light_gray">#909090</color>
+    <color name="light_gray2">#BBB</color>
+    <color name="dark_gray">#202020</color>
+    <color name="zurich_blue">#4066C1</color>
+    <color name="zurich_gray">#F2F0EE</color>
+    <color name="zurich_dark_gray">#E8E5E3</color>
+
+
+    <color name="trans_gray">#30505050</color>
+    <color name="trans_gray2">#60202020</color>
+    <color name="black_trans">#00000000</color>
+    <color name="transparent">#10FFFFFF</color>
+</resources>
